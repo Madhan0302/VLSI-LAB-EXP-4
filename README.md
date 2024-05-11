@@ -49,7 +49,7 @@ STEP:10 Double click on the Implement Design and double click on the Generate Pr
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
 VERILOG CODE
-D FLIP FLOP
+###D FLIP FLOP
 ~~~
 module dff(d,clk,rst,q);
 input d,clk,rst;
