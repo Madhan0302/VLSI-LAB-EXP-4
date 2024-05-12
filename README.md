@@ -5,8 +5,7 @@ AIM:
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
 APPARATUS REQUIRED:
-
-     Vivado™ ML 2023.2
+      Vivado™ ML 2023.2
 
 
 **LOGIC DIAGRAM**
@@ -199,6 +198,7 @@ D FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/dfea0900-e135-41d5-8069-83c57fdd66bb)
 
 JK Flop Flop:![WhatsApp Image 2024-04-15 at 11 38 39_39d9477d](https://github.com/Madhan0302/VLSI-LAB-EXP-4/assets/160517887/c2bed0d1-b345-4d6c-99c8-85d9e7369c25)
+
 Elabrated Diagram:![WhatsApp Image 2024-04-15 at 11 39 49_2ceb9faf](https://github.com/Madhan0302/VLSI-LAB-EXP-4/assets/160517887/679c340e-3714-4d31-82d5-35c97dec19d0)
 
 MOD 10 COUNTER:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/c7c9d5f9-c4c1-4cf3-afaa-37fae535bbbf)
