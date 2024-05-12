@@ -4,9 +4,8 @@ AIM:
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
 APPARATUS REQUIRED:
+     Vivado™ ML 2023.2
 
-Xilinx 14.7
-Spartan6 FPGA
 
 **LOGIC DIAGRAM**
 
