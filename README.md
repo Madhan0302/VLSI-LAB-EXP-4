@@ -63,8 +63,8 @@ q=d;
 end
 endmodule
 ~~~
+### JK Flip Flop
 ~~~
-JK Flip Flop
 module JK_flipflop (q, q_bar, j,k, clk, reset);  
   input j,k,clk, reset;
   output reg q;
@@ -86,8 +86,8 @@ module JK_flipflop (q, q_bar, j,k, clk, reset);
   assign q_bar = ~q;
 endmodule
 ~~~
+### MOD 10 COUNTER
 ~~~
-MOD 10 COUNTER
 module counter(
 input clk,rst,enable,
 output reg [3:0]counter_output
@@ -103,8 +103,8 @@ counter_output <= 0;
 end
 endmodule
 ~~~
+### RIPPLE CARRY COUNTER
 ~~~
-RIPPLE CARRY COUNTER
 module D_FF(q, d, clk, reset);
 output q;
 input d, clk, reset;
@@ -131,8 +131,9 @@ T_FF tff2(q[2], q[1], reset);
 T_FF tff3(q[3], q[2], reset);
 endmodule
 ~~~
+
+### SR FLIP FLOP
 ~~~
-SR FLIP FLOP
 module SR_flipflop (q, q_bar, s,r, clk, reset);
   input s,r,clk, reset;
   output reg q;
@@ -152,7 +153,38 @@ module SR_flipflop (q, q_bar, s,r, clk, reset);
   assign q_bar = ~q;
 endmodule
 ~~~
-
+### T FLIP FLOP
+~~~
+module tff (t,clk, rstn,q);  
+ input t,clk, rstn;
+ output reg q;
+  always @ (posedge clk) begin  
+    if (!rstn)  
+      q <= 0;  
+    else  
+        if (t)  
+            q <= ~q;  
+        else  
+            q <= q;  
+  end  
+endmodule
+~~~
+### UP DOWN COUNTER
+~~~
+module updown_counter(clk,rst,updown,out);
+input clk,rst,updown;
+output reg [3:0]out;
+always@(posedge clk)
+begin
+if (rst==1)
+out=4'b0000;
+else if(updown==1)
+out=out+1;
+else
+out=out-1;
+end
+endmodule
+~~~
 OUTPUT WAVEFORM
 JK Flop Flop:![WhatsApp Image 2024-04-15 at 11 38 39_39d9477d](https://github.com/Madhan0302/VLSI-LAB-EXP-4/assets/160517887/c2bed0d1-b345-4d6c-99c8-85d9e7369c25)
 Elabrated Diagram:![WhatsApp Image 2024-04-15 at 11 39 49_2ceb9faf](https://github.com/Madhan0302/VLSI-LAB-EXP-4/assets/160517887/679c340e-3714-4d31-82d5-35c97dec19d0)
