@@ -5,7 +5,8 @@ AIM:
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
 APPARATUS REQUIRED:
-      Vivado™ ML 2023.2
+
+ Vivado™ ML 2023.2
 
 
 **LOGIC DIAGRAM**
@@ -195,6 +196,8 @@ endmodule
 OUTPUT WAVEFORM:
 
 D FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/f4e4c4bb-00ae-4af4-9ade-c29148506622)
+
+
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/dfea0900-e135-41d5-8069-83c57fdd66bb)
 
 JK Flop Flop:![WhatsApp Image 2024-04-15 at 11 38 39_39d9477d](https://github.com/Madhan0302/VLSI-LAB-EXP-4/assets/160517887/c2bed0d1-b345-4d6c-99c8-85d9e7369c25)
@@ -214,6 +217,8 @@ T FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/c2e7da26-b435-4f2b-a0bc-c5cc1f511b12)
 
 UP DOWN COUNTER:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/482318ce-7631-4fab-9c34-f8fa88e0a95b)
+
+
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/4c02787d-aec7-4d1f-bfcb-bfdf2cdc5577)
 
 RESULT:Simulate And Synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN is  Successfully Verified using Vivado Software.
