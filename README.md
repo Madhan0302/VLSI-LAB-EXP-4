@@ -56,7 +56,7 @@ PROCEDURE:
 
 9.View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
 
-VERILOG CODE
+
 ### D FLIP FLOP
 ~~~
 module dff(d,clk,rst,q);
@@ -214,6 +214,8 @@ SR FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/12
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/91c30531-ba14-417b-90f8-49854ecb55cd)
 
 T FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/5f9a0f68-127d-4ef2-89f6-63d082c4754e)
+
+
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/c2e7da26-b435-4f2b-a0bc-c5cc1f511b12)
 
 UP DOWN COUNTER:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/482318ce-7631-4fab-9c34-f8fa88e0a95b)
