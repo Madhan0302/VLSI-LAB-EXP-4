@@ -1,9 +1,11 @@
 # SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
-AIM: 
+AIM:
+
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
 APPARATUS REQUIRED:
+
      Vivado™ ML 2023.2
 
 
@@ -35,6 +37,7 @@ COUNTER
 
   
 PROCEDURE:
+
 1.Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2.Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
@@ -190,7 +193,8 @@ out=out-1;
 end
 endmodule
 ~~~
-OUTPUT WAVEFORM
+OUTPUT WAVEFORM:
+
 D FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/f4e4c4bb-00ae-4af4-9ade-c29148506622)
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/dfea0900-e135-41d5-8069-83c57fdd66bb)
 
@@ -202,10 +206,13 @@ Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/asse
 
 RIPPLE CARRY COUNTER:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/82e833de-ed3e-4be7-84a8-575e9ca6ba59)
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/693992cc-accf-4c32-87ee-833fee1991fa)
+
 SR FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/790c549b-2ee1-4465-9d37-be8013e3c3ee)
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/91c30531-ba14-417b-90f8-49854ecb55cd)
+
 T FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/5f9a0f68-127d-4ef2-89f6-63d082c4754e)
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/c2e7da26-b435-4f2b-a0bc-c5cc1f511b12)
+
 UP DOWN COUNTER:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/482318ce-7631-4fab-9c34-f8fa88e0a95b)
 Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/4c02787d-aec7-4d1f-bfcb-bfdf2cdc5577)
 
