@@ -36,17 +36,23 @@ COUNTER
 
   
 PROCEDURE:
-STEP:1  Start  the Xilinx navigator, Select and Name the New project.
-STEP:2  Select the device family, device, package and speed.       
-STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
-STEP:4  Type the File Name and Click Next and then finish button. Type the code and save it.
-STEP:5  Select the Behavioral Simulation in the Source Window and click the check syntax.                       
-STEP:6  Click the simulation to simulate the program and  give the inputs and verify the outputs as per the truth table.               
-STEP:7  Select the Implementation in the Sources Window and select the required file in the Processes Window.
-STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in the  FloorplanArea/IO/Logic-Post Synthesis process in the User Constraints process group. UCF(User constraint File) is obtained. 
-STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
-STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
-STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
+1.Open Vivado: Launch Xilinx Vivado software on your computer.
+
+2.Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
+
+3.Project Settings: Follow the prompts to set up your project. Specify the project name, location, and select RTL project type.
+
+4.Add Design Files: Add your Verilog design files to the project. You can do this by right-clicking on "Design Sources" in the Sources window, then selecting "Add Sources". Choose your Verilog files from the file browser.
+
+5.Specify Simulation Settings: Go to "Simulation" > "Simulation Settings". Choose your simulation language (Verilog in this case) and simulation tool (Vivado Simulator).
+
+6.Run Simulation: Go to "Flow" > "Run Simulation" > "Run Behavioral Simulation". This will launch the Vivado Simulator and compile your design for simulation.
+
+7.Set Simulation Time: In the Vivado Simulator window, set the simulation time if it's not set automatically. This determines how long the simulation will run.
+
+8.Run Simulation: Start the simulation by clicking on the "Run" button in the simulation window.
+
+9.View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
 
 VERILOG CODE
 ### D FLIP FLOP
@@ -186,10 +192,24 @@ end
 endmodule
 ~~~
 OUTPUT WAVEFORM
+D FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/f4e4c4bb-00ae-4af4-9ade-c29148506622)
+Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/dfea0900-e135-41d5-8069-83c57fdd66bb)
+
 JK Flop Flop:![WhatsApp Image 2024-04-15 at 11 38 39_39d9477d](https://github.com/Madhan0302/VLSI-LAB-EXP-4/assets/160517887/c2bed0d1-b345-4d6c-99c8-85d9e7369c25)
 Elabrated Diagram:![WhatsApp Image 2024-04-15 at 11 39 49_2ceb9faf](https://github.com/Madhan0302/VLSI-LAB-EXP-4/assets/160517887/679c340e-3714-4d31-82d5-35c97dec19d0)
 
+MOD 10 COUNTER:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/c7c9d5f9-c4c1-4cf3-afaa-37fae535bbbf)
+Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/36fa6bf5-bd9a-4409-90a5-3363c06016ea)
 
-RESULT
+RIPPLE CARRY COUNTER:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/82e833de-ed3e-4be7-84a8-575e9ca6ba59)
+Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/693992cc-accf-4c32-87ee-833fee1991fa)
+SR FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/790c549b-2ee1-4465-9d37-be8013e3c3ee)
+Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/91c30531-ba14-417b-90f8-49854ecb55cd)
+T FLIP FLOP:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/5f9a0f68-127d-4ef2-89f6-63d082c4754e)
+Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/c2e7da26-b435-4f2b-a0bc-c5cc1f511b12)
+UP DOWN COUNTER:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/482318ce-7631-4fab-9c34-f8fa88e0a95b)
+Elabrated Diagram:![image](https://github.com/lycanthrope004/VLSI-LAB-EXP-4/assets/121667830/4c02787d-aec7-4d1f-bfcb-bfdf2cdc5577)
+
+RESULT:Simulate And Synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN is  Successfully Verified using Vivado Software.
 
 
